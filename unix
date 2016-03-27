@@ -1,0 +1,11 @@
+cd                    Change directory to user root
+cd /                  Change directory to system root
+cd rick/learnings/    change directory to User/Richard/rick/learnings
+cd .                   go here
+cd ..                 go up one file
+cd ../../             go up two directories
+ls                    list all files in this directory
+pwd                   shows current path (print working directory)
+mkdir [folder name]   make a new directory in the current directory
+mkdir -p [path]       make a new series of directories
+ 
