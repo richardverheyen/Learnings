@@ -1,0 +1,28 @@
+how to upgrade a git repo
+
+1) create a new Github
+2) Create folder
+  cd rick.
+  mkdir mynewproject/
+  cd mynewproject/
+3) Download repo into this folder
+  git clone [SSH] .
+4) atom .
+5) git status
+6) git add -A
+6.5) git status
+7) git commit -m "Add new files"
+8) git push -u origin master
+
+
+
+git clone [HTTPS or SSH address of repo] .
+git status                                  shows current git status
+git add -A                                  adds all change files to the next commit (staging)
+git commit -m "the message(starting with an action verb)"
+      (completes the sentence "this commit will...")
+      ex. "Add styling to component"
+      ex2. "Hotfix bug with component"
+git push -u origin master         pushes the commit up to github (you only have to do this once)
+git push            pushes the commit up to github
+git pull             pulls in the latest changes from github
