@@ -26,3 +26,5 @@ git commit -m "the message(starting with an action verb)"
 git push -u origin master         pushes the commit up to github (you only have to do this once)
 git push            pushes the commit up to github
 git pull             pulls in the latest changes from github
+
+change1
